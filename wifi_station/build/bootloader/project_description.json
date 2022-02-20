@@ -6,17 +6,15 @@
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
-    "git_revision":       "v5.0-dev-1318-g34c21cb693",
+    "git_revision":       "v4.3.2",
     "target":             "esp32",
-    "rev":                "0",
     "phy_data_partition": "",
     "monitor_baud" :      "115200",
     "monitor_toolprefix": "xtensa-esp32-elf-",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "/home/ddreise/esp/esp-idf/components/efuse/Kconfig;/home/ddreise/esp/esp-idf/components/esp32/Kconfig;/home/ddreise/esp/esp-idf/components/esp_common/Kconfig;/home/ddreise/esp/esp-idf/components/esp_hw_support/Kconfig;/home/ddreise/esp/esp-idf/components/esp_system/Kconfig;/home/ddreise/esp/esp-idf/components/freertos/Kconfig;/home/ddreise/esp/esp-idf/components/hal/Kconfig;/home/ddreise/esp/esp-idf/components/log/Kconfig;/home/ddreise/esp/esp-idf/components/newlib/Kconfig;/home/ddreise/esp/esp-idf/components/spi_flash/Kconfig",
-        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/ddreise/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/ddreise/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/ddreise/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/ddreise/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+        "COMPONENT_KCONFIGS" : "/home/ddreise/esp/esp-idf/components/efuse/Kconfig;/home/ddreise/esp/esp-idf/components/esp32/Kconfig;/home/ddreise/esp/esp-idf/components/esp_common/Kconfig;/home/ddreise/esp/esp-idf/components/esp_system/Kconfig;/home/ddreise/esp/esp-idf/components/log/Kconfig;/home/ddreise/esp/esp-idf/components/newlib/Kconfig;/home/ddreise/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/ddreise/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/ddreise/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/ddreise/esp/esp-idf/components/partition_table/Kconfig.projbuild"
     },
-    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
-    "build_component_paths" : [ "/home/ddreise/esp/esp-idf/components/bootloader", "/home/ddreise/esp/esp-idf/components/bootloader_support", "/home/ddreise/esp/esp-idf/components/efuse", "/home/ddreise/esp/esp-idf/components/esp32", "/home/ddreise/esp/esp-idf/components/esp_common", "/home/ddreise/esp/esp-idf/components/esp_hw_support", "/home/ddreise/esp/esp-idf/components/esp_rom", "/home/ddreise/esp/esp-idf/components/esp_system", "/home/ddreise/esp/esp-idf/components/esptool_py", "/home/ddreise/esp/esp-idf/components/freertos", "/home/ddreise/esp/esp-idf/components/hal", "/home/ddreise/esp/esp-idf/components/log", "/home/ddreise/esp/esp-idf/components/bootloader/subproject/main", "/home/ddreise/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/ddreise/esp/esp-idf/components/newlib", "/home/ddreise/esp/esp-idf/components/partition_table", "/home/ddreise/esp/esp-idf/components/soc", "/home/ddreise/esp/esp-idf/components/spi_flash", "/home/ddreise/esp/esp-idf/components/xtensa", "" ],
-    "debug_prefix_map_gdbinit": ""
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/ddreise/esp/esp-idf/components/bootloader", "/home/ddreise/esp/esp-idf/components/bootloader_support", "/home/ddreise/esp/esp-idf/components/efuse", "/home/ddreise/esp/esp-idf/components/esp32", "/home/ddreise/esp/esp-idf/components/esp_common", "/home/ddreise/esp/esp-idf/components/esp_hw_support", "/home/ddreise/esp/esp-idf/components/esp_rom", "/home/ddreise/esp/esp-idf/components/esp_system", "/home/ddreise/esp/esp-idf/components/esptool_py", "/home/ddreise/esp/esp-idf/components/hal", "/home/ddreise/esp/esp-idf/components/log", "/home/ddreise/esp/esp-idf/components/bootloader/subproject/main", "/home/ddreise/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/ddreise/esp/esp-idf/components/newlib", "/home/ddreise/esp/esp-idf/components/partition_table", "/home/ddreise/esp/esp-idf/components/soc", "/home/ddreise/esp/esp-idf/components/spi_flash", "/home/ddreise/esp/esp-idf/components/xtensa", "" ]
 }

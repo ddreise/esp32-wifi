@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/ddreise/esp/esp32-wifi/wifi_station/build/CMakeFiles/bootloader
+/home/ddreise/esp/esp32-wifi/wifi_station/build/CMakeFiles/bootloader.rule
+/home/ddreise/esp/esp32-wifi/wifi_station/build/CMakeFiles/bootloader-complete.rule
+/home/ddreise/esp/esp32-wifi/wifi_station/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/ddreise/esp/esp32-wifi/wifi_station/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/ddreise/esp/esp32-wifi/wifi_station/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/ddreise/esp/esp32-wifi/wifi_station/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/ddreise/esp/esp32-wifi/wifi_station/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/ddreise/esp/esp32-wifi/wifi_station/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/ddreise/esp/esp32-wifi/wifi_station/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
